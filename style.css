@@ -1,0 +1,38 @@
+body {
+    background-color: #f14981;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste para a altura total da tela */
+    margin: 0;
+}
+
+button {
+    background-color: #da0858;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none; /* Remove borda padrão */
+    padding: 10px 20px; /* Adiciona um pouco de espaço interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo */
+}
+
+button:hover {
+    background-color: #c4075d; /* Cor de fundo ao passar o mouse */
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
